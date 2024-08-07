@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07aa977d7279f3a46aba1ab3843a49bd, type: 3}
+  m_Name: CountryData
+  m_EditorClassIdentifier: 
+  countries:
+  - countryName: Pakistan
+    flag: {fileID: 21300000, guid: 994c6886a11cbb94096dbfdb984c7c51, type: 3}
+    regionType: 2
+    states: []
+    provinces:
+    - provinceName: Punjab
+      cities:
+      - cityName: Lahore
+      - cityName: Multan
+    - provinceName: Sindh
+      cities:
+      - cityName: Karachi
+    - provinceName: Kpk
+      cities:
+      - cityName: Peshawar
+      - cityName: Swat
+    counties: []
+  - countryName: India
+    flag: {fileID: 21300000, guid: b7b402f5172b155428f2d400a2648630, type: 3}
+    regionType: 1
+    states:
+    - stateName: Jharkand
+      cities:
+      - cityName: Ranchi
+    - stateName: Rajasthan
+      cities:
+      - cityName: Jodhpur
+      - cityName: Udaipur
+      - cityName: Ajmer
+    provinces: []
+    counties: []
